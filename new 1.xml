@@ -5,7 +5,7 @@
         <description>Nyxborn are not just a race of people, but a mixture of the mortal and divine. Any creature can be or become Nyxborn, one only needs a touch of divinity. Specifically from the plane of Theros, these creatures dwell in the starry domain of the gods called Nyx. Nyx can be seen from the mortal realm in the manifestation of the night sky, where all mortals roam when they dream. As the boundaries between the realms of mortals and gods thins, more Nyxborn inhabit the realms of men.</description>
         <author url="https://www.gmbinder.com/share/-Lz7gYzaAdyWBOuTOoIx">GM Binder</author>
         <update version="0.0.1">
-            <file name="new 1.xml" url="https://www.gmbinder.com/share/-Lz7gYzaAdyWBOuTOoIx"/>
+            <file name="new 1.xml" url="https://raw.githubusercontent.com/KhanMan2/Nyxborn/master/new%201.xml"/>
         </update>
     </info>
 	<element name="Homebrew: Nyxborn Race" type="Source" source="Core" id="ID_HB_SOURCE_HOMEBREW_NYXBORN">
