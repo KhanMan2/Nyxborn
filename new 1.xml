@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Homebrew: Nyxborn Race</name>
+        <description>Nyxborn are not just a race of people, but a mixture of the mortal and divine. Any creature can be or become Nyxborn, one only needs a touch of divinity. Specifically from the plane of Theros, these creatures dwell in the starry domain of the gods called Nyx. Nyx can be seen from the mortal realm in the manifestation of the night sky, where all mortals roam when they dream. As the boundaries between the realms of mortals and gods thins, more Nyxborn inhabit the realms of men.</description>
+        <author url="https://www.gmbinder.com/share/-Lz7gYzaAdyWBOuTOoIx">GM Binder</author>
+        <update version="0.0.1">
+            <file name="new 1.xml" url="https://www.gmbinder.com/share/-Lz7gYzaAdyWBOuTOoIx"/>
+        </update>
+    </info>
+	<element name="Homebrew: Nyxborn Race" type="Source" source="Core" id="ID_HB_SOURCE_HOMEBREW_NYXBORN">
+		<description>
+			<p>Nyxborn are not just a race of people, but a mixture of the mortal and divine. Any creature can be or become Nyxborn, one only needs a touch of divinity. Specifically from the plane of Theros, these creatures dwell in the starry domain of the gods called Nyx. Nyx can be seen from the mortal realm in the manifestation of the night sky, where all mortals roam when they dream. As the boundaries between the realms of mortals and gods thins, more Nyxborn inhabit the realms of men.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">HBNYXBORN</set>
+			<set name="url">https://www.gmbinder.com/share/-Lz7gYzaAdyWBOuTOoIx</set>
+			<set name="author" abbreviation="GMB" url="https://www.gmbinder.com/share/-Lz7gYzaAdyWBOuTOoIx">Gm Binder</set>
+			<set name="official">false</set>
+			<set name="playtest">false</set>
+			<set name="release">HBNYXBORN</set>
+		</setters>
+	</element>
+
+	<element name="Nyxborn" type="Race" source="Homebrew: Nyxborn Race" id="ID_HB_SOURCE_HOMEBREW_NYXBORN_RACE">
+		<description>
+			<p>Nyxborn are not just a race of people, but a mixture of the mortal and divine. Any creature can be or become Nyxborn, one only needs a touch of divinity. Specifically from the plane of Theros, these creatures dwell in the starry domain of the gods called Nyx. Nyx can be seen from the mortal realm in the manifestation of the night sky, where all mortals roam when they dream. As the boundaries between the realms of mortals and gods thins, more Nyxborn inhabit the realms of men.</p>
+			<h4>Mortal Reflections</h4>
+			<p>Nyxborn often manifest as mirrors of creatures in the mortal world - there are Nyxborn minotaurs, Nyxborn humans, Nyxborn gorgons, Nyxborn wolves, and on and on. They are formed from the collective subconscious or by the divine will of the gods, which is why they appear so often as creatures favored by particular gods.</p>
+			<h4>Divine Wills</h4>
+			<p>Often the more insidious part of being Nyxborn is being influenced by the will of your god, their will often overpowers your own and your goals often align with their capricious whims. Whether they retain their mortality or they become subsumed by their divine origins, it is entirely dependent on their force of will.</p>
+			<h4>NYXBORN NAMES</h4>
+			<p>Depending on a Nyxborn's origins, they usually have names that reflect the culture of the creature they were manifested as or created from. Nyxborn usually have names that they had as mortals or are given names by their god. They often have titles expressing the domain or will of their god such Favored by Deceit, Blessed by the Sea, Beloved by Death, or Chosen from the Forge and this will reflect in their appearance or personality.</p>
+			<h4>NYXBORN TRAITS</h4>
+			<p>Your Nyxborn character has the following traits.</p>
+			<p><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p>
+			<p><strong><em>Age.</em></strong> Nyxborn are immortal in the sense their body will never age, but there is a predestined date for which they will rejoin the underworld. Not even they can escape death.</p>
+			<p><strong><em>Alignement.</em></strong> Depends on the alignment of their god. Most Nyxborn are of some neutral or chaotic alignment.</p>
+			<p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p><strong><em>Favored by Divinity. </em></strong> As an action, you can call upon a spectral avatar representing the aspect of your deity, it does not have any statistics and cannot take any actions or reactions. Only creatures you choose or creatures with true sight can see the avatar. You can speak to it and ask it for advice; it is up to the GM and you to decide the avatar's demeanor and personality. This avatar stays present for up to an hour or until it is dismissed.
+
+After you use this trait once, you can’t use it again until you finish a long rest.</p>
+			<p><strong><em>Starry Form.</em></strong> Your body looks like a field of stars and it is often disorienting to others. You may gain advantage on an Charisma (Intimidation) check.
+
+After you use this trait, you can’t use it again until you finish a short or long rest.</p>
+			<p><strong><em>Chosen Task.</em></strong> You gain proficiency in one skill (your choice).</p>
+			<p><strong><em>Languages.</em></strong> You can speak, read, and write Common and Celestial.</p>
+		</description>
+		<setters>
+			<set name="names" type="custom">Aun, Bay, Bassisk, Cresh, Din, Essek, Fiksh, Gyan, Hsiska, Illati, Izka, Kyri, Liszik, Maush, Nyoser, Ossanash, Shekess, Skellek, Szil, Tenk, Tzia, Villi, Wyoryn, Yom, Ztash</set>
+			<set name="names-format">{{custom}}</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+			<grant type="Racial Trait" id="ID_GMB_RACIAL_TRAIT_NYXBORN_FAVORED_BY_DIVINITY" />
+			<grant type="Racial Trait" id="ID_GMB_RACIAL_TRAIT_NYXBORN_STARRY_FORM" />
+			<grant type="Racial Trait" id="ID_GMB_RACIAL_TRAIT_NYXBORN_CHOSEN_TASK" />
+		</rules>
+	</element>
+	<element name="Favored By Divinity" type="Racial Trait" source="Homebrew: Nyxborn Race" id="ID_GMB_RACIAL_TRAIT_NYXBORN_FAVORED_BY_DIVINITY">
+		<description>
+			<p>As an action, you can call upon a spectral avatar representing the aspect of your deity, it does not have any statistics and cannot take any actions or reactions. Only creatures you choose or creatures with true sight can see the avatar. You can speak to it and ask it for advice; it is up to the GM and you to decide the avatar's demeanor and personality. This avatar stays present for up to an hour or until it is dismissed.
+
+After you use this trait once, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>As an action, you can call upon a spectral avatar representing the aspect of your deity, it does not have any statistics and cannot take any actions or reactions. Only creatures you choose or creatures with true sight can see the avatar. You can speak to it and ask it for advice; it is up to the GM and you to decide the avatar's demeanor and personality. This avatar stays present for up to an hour or until it is dismissed.
+
+After you use this trait once, you can’t use it again until you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Starry Form" type="Racial Trait" source="Homebrew: Nyxborn Race" id="ID_GMB_RACIAL_TRAIT_NYXBORN_STARRY_FORM">
+		<description>
+			<p>Your body looks like a field of stars and it is often disorienting to others. You may gain advantage on an Charisma (Intimidation) check.</p>
+		</description>
+		<sheet action="Free Action">
+			<description>Your body looks like a field of stars and it is often disorienting to others. You may gain advantage on an Charisma (Intimidation) check.</description>
+		</sheet>
+	</element>
+	<element name="Chosen Task" type="Racial Trait" source="Homebrew: Nyxborn Race" id="ID_GMB_RACIAL_TRAIT_CHOSEN_TASK">
+		<description>
+			<p>You gain proficiency in one skill (your choice).</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in one skill (your choice).</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Chosen Task)" supports="Skill" />
+		</rules>
+	</element>
+</elements>
